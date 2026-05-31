@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ $title }}</title>
-</head>
-<body>
-    <H1>Ana Sayfa</H1>
-    
-    <h2>{{ $message }}</h2> 
-</body>
-</html>
+@extends('layouts.master')
+
+@section('slider')
+     @include('front.slider')
+@endsection
+
+@section('content')
+     <h2> {{ $message }} </h2> 
+@endsection

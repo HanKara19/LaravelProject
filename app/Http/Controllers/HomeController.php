@@ -8,11 +8,10 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $data = [
-            'title' => 'Benim Sayfam',
-            'message' => 'ilk prjeme hoş geldin' // Sadece bu kısmı değiştirdik!
-        ];
-
-        return view('home', $data);
+        $title = 'Home Page xxxx';
+        $message = 'Welcome to Laravel MVC example';
+        
+        
+        return view('layouts.home', compact('title', 'message'));
     }
 }
