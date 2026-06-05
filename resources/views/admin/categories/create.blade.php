@@ -38,14 +38,19 @@
                   </div>
                   <!--end::Header-->
                   <!--begin::Form-->
-                  <form action="{{ route('categories.store') }}" method="POST" enctype="multipart/form-data">
+                  <form action="{{ route('admin.categories.store') }}" method="POST" enctype="multipart/form-data">
                       @csrf
                     <!--begin::Body-->
                     <div class="card-body">
                     <div class="mb-3">
                         <label for="title" class="form-label">Parent</label>
-                        <select id="Parent_id"  name="Parent_id" class="form-control" >
+                        <select id="parent_id" name="parent_id" class="form-control">
                          <option value="0">Main Category</option>
+                         @foreach ( $categories as $category )
+                            <option value="{{ $category->id }}"> @if($category->parent_id && $category->parent_id !=0)
+                                 {{ $category->full_path}} @endif
+                                 {{ $category->title}}</option>
+                         @endforeach
                         </select>
                         </div> 
                       <div class="mb-3">

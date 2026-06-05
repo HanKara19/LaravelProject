@@ -13,7 +13,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::all();
+        //$categories = Category::all();
+        $categories = Category::with('parent')->get();
+
         return view('admin.categories.index', compact('categories'));
     }
 
@@ -22,7 +24,9 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        //$categories = Category::all();
+        $categories = Category::with('parent')->get();
+        return view('admin.categories.create', compact('categories'));
     }
 
     /**
@@ -53,7 +57,7 @@ class CategoryController extends Controller
         $category->save();
     
         return redirect()
-            ->route('categories.index')
+            ->route('admin.categories.index')
             ->with('success', 'Category created successfully.');
     }
 
@@ -62,7 +66,8 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+        $category->load('parent', 'children');
+        return view('admin.categories.show', compact('category'));
     }
 
     /**
@@ -70,7 +75,9 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        //
+
+        $categories = Category::with('parent')->get();
+        return view('admin.categories.edit', compact('category', 'categories'));
     }
 
     /**
@@ -78,7 +85,30 @@ class CategoryController extends Controller
      */
     public function update(Request $request, Category $category)
     {
-        //
+        $request->validate([
+            'parent_id'   => 'nullable|integer',
+            'title'       => 'required|string|max:255',
+            'keywords'    => 'nullable|string|max:255',
+            'description' => 'nullable|string|max:255',
+            'image'       => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+            'status'      => 'required|in:0,1',
+        ]);
+        
+        $category->parent_id = $request->parent_id ?? 0;
+        $category->title = $request->title;
+        $category->keywords = $request->keywords;
+        $category->description = $request->description;
+        $category->status = $request->status;
+        
+        if ($request->hasFile('image')) {
+            $category->image = $request->file('image')->store('categories', 'public');
+        }
+        
+        $category->save();
+        
+        return redirect()->route('admin.categories.index')
+            ->with('success', 'Category updated successfully.');
+
     }
 
     /**
@@ -86,6 +116,9 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        //
+            $category->delete(); 
+            return redirect()
+                ->route('admin.categories.index')
+                ->with('success', 'Category deleted successfully.');
     }
 }

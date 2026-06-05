@@ -36,7 +36,7 @@
 
                 <!-- Categories -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route("admin.categories.index") }}" class="nav-link">
                         <i class="nav-icon bi bi-tags-fill"></i>
                         <p>Categories</p>
                     </a>

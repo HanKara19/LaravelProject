@@ -54,7 +54,7 @@
 
                 <td>
                     @if($category->parent_id && $category->parent_id != 0)
-                        {{ $category->parent?->title }}
+                    {{ $category->parent ? $category->parent->title : '' }}
                     @else
                         Main Category
                     @endif
@@ -79,11 +79,11 @@
                 </td>
 
                 <td>
-                    <a href="{{ route('categories.show', $category->id) }}" class="btn btn-info btn-sm">Show</a>
+                    <a href="{{ route('admin.categories.show', $category->id) }}" class="btn btn-info btn-sm">Show</a>
 
-                    <a href="{{ route('categories.edit', $category->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="{{ route('admin.categories.edit', $category->id) }}" class="btn btn-warning btn-sm">Edit</a>
 
-                    <form action="{{ route('categories.destroy', $category->id) }}" method="POST" class="d-inline">
+                    <form action="{{ route('admin.categories.destroy', $category->id) }}" method="POST" class="d-inline">
                         @csrf
                         @method('DELETE')
 
