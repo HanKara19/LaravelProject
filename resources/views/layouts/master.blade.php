@@ -33,9 +33,7 @@
 
 @yield('slider')
 
-<div class="container">
-    @yield('content')
-</div>
+@yield('content')
 
 @section('footer')
     @include('front.footer')

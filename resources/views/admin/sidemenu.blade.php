@@ -76,35 +76,35 @@
                     <ul class="nav nav-treeview">
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('admin.orders.index', ['status' => 'pending']) }}" class="nav-link" class="nav-link">
                                 <i class="nav-icon bi bi-cart-plus-fill"></i>
                                 <p>New Orders</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('admin.orders.index', ['status' => 'processing']) }}" class="nav-link" class="nav-link">
                                 <i class="nav-icon bi bi-check-circle-fill"></i>
                                 <p>Accepted Orders</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('admin.orders.index', ['status' => 'processing']) }}" class="nav-link" class="nav-link">
                                 <i class="nav-icon bi bi-truck"></i>
                                 <p>On Shipping Orders</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('admin.orders.index', ['status' => 'completed']) }}" class="nav-link" class="nav-link">
                                 <i class="nav-icon bi bi-bag-check-fill"></i>
                                 <p>Completed Orders</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('admin.orders.index', ['status' => 'cancelled']) }}" class="nav-link" class="nav-link">
                                 <i class="nav-icon bi bi-x-circle-fill"></i>
                                 <p>Canceled Orders</p>
                             </a>

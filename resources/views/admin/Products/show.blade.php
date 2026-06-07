@@ -123,12 +123,31 @@
     <td>
         @if($product->images && $product->images->count() > 0)
             <div class="d-flex flex-wrap gap-2">
-                @foreach($product->images as $image)
-                    <img src="{{ asset('storage/' . $image->image) }}"
-                         width="120"
-                         height="120"
-                         class="img-thumbnail">
-                @endforeach
+            @foreach($product->images as $image)
+    <div class="text-center me-2">
+
+        <img src="{{ asset('storage/' . $image->image) }}"
+             width="120"
+             height="120"
+             class="img-thumbnail">
+
+        <form action="{{ route('admin.product.image.delete', $image->id) }}"
+              method="POST"
+              class="mt-2">
+
+            @csrf
+            @method('DELETE')
+
+            <button type="submit"
+                    class="btn btn-danger btn-sm"
+                    onclick="return confirm('Delete this image?')">
+                Delete
+            </button>
+
+        </form>
+
+    </div>
+@endforeach
             </div>
         @else
             No gallery images

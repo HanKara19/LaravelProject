@@ -40,12 +40,12 @@
         <!--begin::Container-->
         <div class="container-fluid">
 
-            <form action="{{ route('admin.product.store') }}"
-                  method="POST"
-                  enctype="multipart/form-data">
+        <form action="{{ route('admin.product.store') }}"
+      method="POST"
+      enctype="multipart/form-data">
 
-                @csrf
-                @method('PUT')
+    @csrf
+                
                 @include('admin.products.form')
 
                 <button type="submit" class="btn btn-primary">

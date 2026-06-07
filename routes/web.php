@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\CategoryController;
 use App\Http\Controllers\admin\AdminProductController;
 use App\Http\Controllers\admin\AdminUserController;
+use App\Http\Controllers\admin\AdminOrderController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -57,6 +60,8 @@ Route::prefix('product')->name('product.')->controller(AdminProductController::c
             Route::put('/update/{product}', 'update')->name('update');
 
             Route::delete('/delete/{product}', 'destroy')->name('destroy');
+
+            Route::delete('/image/delete/{image}', 'deleteImage')->name('image.delete');
         });
 
 
@@ -92,11 +97,51 @@ Route::prefix('users')->name('users.')->controller(AdminUserController::class)->
 
     Route::delete('/delete/{user}', 'destroy')->name('destroy');
 });
+// Order routes
+Route::prefix('orders')->name('orders.')->controller(AdminOrderController::class)->group(function () {
 
+    Route::get('/', 'index')->name('index');
 
+    Route::get('/show/{order}', 'show')->name('show');
+
+    Route::put('/update/{order}', 'update')->name('update');
+
+    Route::delete('/delete/{order}', 'destroy')->name('destroy');
+});
 
 
 });
+
+Route::middleware(['auth'])->group(function () {
+
+    Route::prefix('cart')->group(function () {
+
+        Route::get('/', [CartController::class, 'index'])
+            ->name('cart.index');
+
+        Route::post('/add/{product}', [CartController::class, 'add'])
+            ->name('cart.add');
+
+        Route::post('/update/{cart}', [CartController::class, 'update'])
+            ->name('cart.update');
+
+        Route::delete('/remove/{cart}', [CartController::class, 'remove'])
+            ->name('cart.remove');
+
+        Route::get('/checkout', [CheckoutController::class, 'checkout'])
+            ->name('checkout');
+
+        Route::post('/place-order', [CheckoutController::class, 'placeOrder'])
+            ->name('place.order');
+    });
+});
+
+Route::get('/products', [HomeController::class, 'products'])->name('products');
+
+Route::get('/product/{id}', [HomeController::class, 'productDetail'])
+    ->name('product.detail');
+
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/profile', function () {
     return view('profile.edit');

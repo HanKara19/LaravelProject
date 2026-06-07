@@ -8,6 +8,7 @@ use App\Models\Product;
 use App\Models\Category;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ProductImage;
+use Illuminate\Support\Facades\Storage;
 
 class AdminProductController extends Controller
 {
@@ -122,4 +123,14 @@ class AdminProductController extends Controller
             return redirect(route('admin.product.index'))
                 ->with('success', 'Product deleted successfully.');
     }
+    public function deleteImage(ProductImage $image)
+{
+    if ($image->image) {
+        Storage::disk('public')->delete($image->image);
+    }
+
+    $image->delete();
+
+    return back()->with('success', 'Gallery image deleted successfully.');
+}
 }

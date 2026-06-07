@@ -8,18 +8,19 @@
 					<span class="category-header">Categories <i class="fa fa-list"></i></span>
 					<ul class="category-list">
 						<li class="dropdown side-dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women’s Clothing <i class="fa fa-angle-right"></i></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Smart Phones<i class="fa fa-angle-right"></i></a>
 							<div class="custom-menu">
 								<div class="row">
 									<div class="col-md-4">
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Gaming Devices</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -27,11 +28,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -39,11 +41,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 								</div>
@@ -61,29 +64,31 @@
 								</div>
 							</div>
 						</li>
-						<li><a href="#">Men’s Clothing</a></li>
-						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Phones & Accessories <i class="fa fa-angle-right"></i></a>
+						<li><a href="#">Laptops & Tablets</a></li>
+						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Phone Accessories <i class="fa fa-angle-right"></i></a>
 							<div class="custom-menu">
 								<div class="row">
 									<div class="col-md-4">
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr>
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -91,21 +96,23 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr>
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 									<div class="col-md-4 hidden-sm hidden-xs">
@@ -120,30 +127,32 @@
 							</div>
 						</li>
 						<li><a href="#">Computer & Office</a></li>
-						<li><a href="#">Consumer Electronics</a></li>
+						<li><a href="#">Gaming Devices</a></li>
 						<li class="dropdown side-dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Jewelry & Watches <i class="fa fa-angle-right"></i></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Smart Watches <i class="fa fa-angle-right"></i></a>
 							<div class="custom-menu">
 								<div class="row">
 									<div class="col-md-4">
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr>
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -151,21 +160,23 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr>
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -173,28 +184,31 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr>
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</li>
-						<li><a href="#">Bags & Shoes</a></li>
-						<li><a href="#">View All</a></li>
+						<li><a href="#">Tech Accessories
+</a></li>
+						<li><a href="#">All Products</a></li>
 					</ul>
 				</div>
 				<!-- /category nav -->
@@ -212,11 +226,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -224,11 +239,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 										<hr class="hidden-md hidden-lg">
 									</div>
@@ -236,11 +252,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 								</div>
@@ -274,11 +291,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 									<div class="col-md-3">
@@ -294,11 +312,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 									<div class="col-md-3">
@@ -314,11 +333,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 									<div class="col-md-3">
@@ -334,11 +354,12 @@
 										<ul class="list-links">
 											<li>
 												<h3 class="list-links-title">Categories</h3></li>
-											<li><a href="#">Women’s Clothing</a></li>
-											<li><a href="#">Men’s Clothing</a></li>
-											<li><a href="#">Phones & Accessories</a></li>
-											<li><a href="#">Jewelry & Watches</a></li>
-											<li><a href="#">Bags & Shoes</a></li>
+											<li><a href="#">Smart Phones</a></li>
+											<li><a href="#">Laptops & Tablets</a></li>
+											<li><a href="#">Phone Accessories</a></li>
+											<li><a href="#">Smart Watches</a></li>
+											<li><a href="#">Tech Accessories
+</a></li>
 										</ul>
 									</div>
 								</div>
